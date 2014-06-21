@@ -6,7 +6,7 @@ BOOT({
 	CONFIG : {
 		isDevMode : true
 	},
-	SERVER_CONFIG : {
+	NODE_CONFIG : {
 		isNotUsingDB : true,
 
 		MAIN : function(ONE) {
@@ -53,8 +53,8 @@ BOOT({
 							style : {
 								fontSize : 50
 							},
-							children : [SPAN({
-								children : ['Hello UPPERCASE!']
+							c : [SPAN({
+								c : ['Hello UPPERCASE!']
 							})]
 						}).appendTo(BODY);
 

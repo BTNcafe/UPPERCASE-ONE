@@ -1,4 +1,4 @@
-require('../UPPERCASE/BOOT.js');
+require('../UPPERCASE.IO/BOOT.js');
 
 var
 // origin BOOT

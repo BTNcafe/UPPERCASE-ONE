@@ -2,8 +2,8 @@ UPPERCASE_ONE.MAIN = METHOD({
 
 	run : function() {'use strict';
 
-		if (SERVER_CONFIG.MAIN !== undefined) {
-			SERVER_CONFIG.MAIN(UPPERCASE_ONE);
+		if (NODE_CONFIG.MAIN !== undefined) {
+			NODE_CONFIG.MAIN(UPPERCASE_ONE);
 		}
 	}
 });

@@ -1,0 +1,1 @@
+RUN(function(){"use strict";var t,e=function(e){var i,c;void 0===t&&(i=document.currentScript,void 0===i&&(c=document.getElementsByTagName("script"),i=c[c.length-1]),t=i.getAttribute("src"),t=t.substring(0,t.indexOf("/FIX.js"))),LOAD(t+"/"+e+".js")};void 0===global.WebSocket&&(e("CONNECT/LIB/socket.io"),e("CONNECT/CONNECT_TO_WEB_SOCKET_SERVER"))});
