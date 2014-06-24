@@ -1,1 +1,1 @@
-OVERRIDE(ANIMATE,function(){"use strict";global.ANIMATE=ANIMATE=METHOD({run:function(t,n,o){var i=n.node,e=n.keyframes,a=(n.duration,void 0===n.iterationCount?"":n.iterationCount);i.getDom().addStyle(e.getFinalStyle()),void 0===o||""!==a&&1!==a||DELAY(function(){o(i)})}})});
+OVERRIDE(ANIMATE,function(){"use strict";global.ANIMATE=ANIMATE=METHOD({run:function(t,n){var o=t.node,i=t.keyframes,e=(t.duration,void 0===t.iterationCount?"":t.iterationCount);o.getDom().addStyle(i.getFinalStyle()),void 0===n||""!==e&&1!==e||DELAY(function(){n(o)})}})});
